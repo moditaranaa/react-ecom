@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Iphone",
+            "description": "Mfg. By: Apple Inc. 128GB|16GB",
+            "price": "50000",
+            "rating": "9.5",
+            "img": "/img/iphone.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Watch",
+            "description": "Mfg. By: Rolex Night-Solar Edition",
+            "price": "60000",
+            "rating": "10",
+            "img": "/img/watch.jpeg"
+        },
+        {
+            "id": "3",
+            "name": "Laptop",
+            "description": "Mfg. By: Apple Inc. 128GB|16GB",
+            "price": "150000",
+            "rating": "9.5",
+            "img": "/img/laptop.jpeg"
+        },
+        {
+            "id": "4",
+            "name": "Airpods",
+            "description": "Mfg. By: Apple Inc. 128GB|16GB",
+            "price": "20000",
+            "rating": "9.5",
+            "img": "/img/airpods.jpeg"
+        },
+        {
+            "id": "5",
+            "name": "PhoneCase",
+            "description": "Mfg. By: Apple Inc. 128GB|16GB",
+            "price": "1000",
+            "rating": "8",
+            "img": "/img/case.jpeg"
+        },
+        {
+            "id": "6",
+            "name": "Charger",
+            "description": "Mfg. By: Apple Inc. 128GB|16GB",
+            "price": "2000",
+            "rating": "8",
+            "img": "/img/charger.jpeg"
+        }
+    ]
+}

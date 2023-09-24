@@ -1,0 +1,57 @@
+.navbarContainer {
+    height: 10vh;
+    width: 100%;
+    background-color: #19030e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: rgb(171, 3, 104);
+}
+
+
+.addProduct:hover {
+    color: rgb(239, 109, 142);
+    cursor: pointer;
+}
+
+.addProduct:disabled {
+    color: rgb(222, 82, 127);
+}
+
+.addProduct {
+    position: absolute;
+    right: 400px;
+    border: none;
+    background-color: inherit;
+    font-size: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.viewCart:hover {
+    color: rgb(190, 57, 86);
+    cursor: pointer;
+}
+
+.viewCart {
+    position: absolute;
+    right: 250px;
+}
+
+.home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(180, 28, 139);
+}

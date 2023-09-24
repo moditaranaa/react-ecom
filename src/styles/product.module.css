@@ -1,0 +1,122 @@
+.productContainer {
+    background-color: #b89aa3;
+    width: 55vw;
+    min-height: 55vh;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.productItem {
+    height: 25vh;
+    width: 100%;
+    background-color: #fcf8f8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.productSeriel {
+    font-size: 2rem;
+    position: absolute;
+    left: 15px;
+    font-weight: 600;
+}
+
+.productItem img {
+    position: absolute;
+    left: 60px;
+    height: 120px;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.productItemDetail {
+    position: absolute;
+    left: 180px;
+    top: 15px;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0;
+    height: 120px;
+    width: 180px;
+    font-family: sans-serif;
+}
+
+.productItemDescription {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 0;
+    position: absolute;
+    left: 550px;
+    top: 0;
+    width: 20vw;
+}
+
+.addToCart {
+    height: 35px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: absolute;
+    right: 210px;
+    top: 60px;
+}
+
+.addToCart:hover {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mainBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+
+.sort {
+    font-size: 1rem;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    align-self: flex-end;
+    border: 1px solid black;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+.sort:hover {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+}
+
+.onh:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.editForm>input {
+    left: -20px;
+    position: absolute;
+    top: 10px;
+}
+
+.editForm>button {
+    position: absolute;
+    top: 90px;
+}
