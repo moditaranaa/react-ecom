@@ -6,7 +6,7 @@
             "description": "Mfg. By: Apple Inc. 128GB|16GB",
             "price": "50000",
             "rating": "9.5",
-            "img": "react-ecom/img/iphone.jpg"
+            "img": "img/iphone.jpg"
         },
         {
             "id": "2",
